@@ -6,15 +6,14 @@ import { Button, StyleSheet } from 'react-native';
 function LoginCount() {
     const [count, setCount] = useState(0);
     
-
     return (
         <div>
         <p> If you expirence trouble logging in, please press the help button here:</p>
         {/* <button onClick= {() => setCount(count+1)}>
             Help</button> */}
-            <button onClick= {() => {setCount(count+1); window.alert('hi')}}>
+            <button onClick= {() => {setCount(count+1); <p>We recieved your help request. {count} email(s) has been sent to you.</p>}}>
             Help</button>
-        <p>We recieved your help request. {count} email(s) has been sent to you.</p>
+        {/* <p>We recieved your help request. {count} email(s) has been sent to you.</p> */}
         </div>
     );
 }
