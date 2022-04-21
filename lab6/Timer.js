@@ -23,13 +23,14 @@ import React, {useEffect, useState} from 'react';
      useEffect(() => {
          const timer = setTimeout(() => {
              setCount('Timeout called');
-         }, 2000);
+         }, 60000);
          return () => clearTimeout(timer);
         }, []);
          
         return (
             <div>
-                Testing this
+                For security purposes, this page will no longer work after 1 mintue.
+                To reset your time, please refresh the page.
             </div>
         );
      };
