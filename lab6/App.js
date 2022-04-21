@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import LoginApp from './LoginApp';
-import LoginCount from './LoginCount';
+import HelpCount from './HelpCount';
 import Timer from './Timer';
 export default function App() {
   return (
     <View style={styles.container}>
-      <LoginApp />
-      <LoginCount></LoginCount>
       <Timer></Timer>
+      <LoginApp />
+      <HelpCount></HelpCount>
       <StatusBar style="auto" />
     </View>
   );
