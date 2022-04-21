@@ -6,9 +6,9 @@ import Timer from './Timer';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Timer></Timer>
       <LoginApp />
       <LoginCount></LoginCount>
+      <Timer></Timer>
       <StatusBar style="auto" />
     </View>
   );
