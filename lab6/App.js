@@ -4,12 +4,13 @@ import LoginApp from './LoginApp';
 import HelpCount from './HelpCount';
 import Timer from './Timer';
 import Greeting from './Greeting';
-import "./app.css";
+import './app.css'
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Greeting></Greeting>
+      <br></br>
       <Timer></Timer>
       <LoginApp />
       <HelpCount></HelpCount>
