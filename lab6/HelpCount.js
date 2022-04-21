@@ -3,9 +3,10 @@ import { StyleSheet } from 'react-native';
 
 //new functional component #1
 
+
 function HelpCount() {
     const [count, setCount] = useState(0);
-    
+   
     return (
         <div>
         <p> If you expirence trouble logging in, please press the help button here:</p>
@@ -17,6 +18,7 @@ function HelpCount() {
         </div>
     );
 }
+
 export default HelpCount; 
 
 const styles = StyleSheet.create({
