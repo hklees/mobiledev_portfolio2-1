@@ -12,32 +12,32 @@ function LoginCount() {
         </div>
     );
 }
+export default LoginCount; 
 
-const styles = StyleSheet.create({
-    button: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingVertical: 12,
-        paddingHorizontal: 32,
-        borderRadius: 4,
-        elevation: 3,
-        backgroundColor: 'black',
-    },
+// const styles = StyleSheet.create({
+//     button: {
+//         alignItems: 'center',
+//         justifyContent: 'center',
+//         paddingVertical: 12,
+//         paddingHorizontal: 32,
+//         borderRadius: 4,
+//         elevation: 3,
+//         backgroundColor: 'black',
+//     },
 
-    text: {
-        fontSize: 16,
-        lineHeight: 21,
-        fontWeight: 'bold',
-        letterSpacing: 0.25,
-        color: 'white',
-    },
-    textinput: {
-        fontSize: 20,
-        width: 200,
-        borderBottomColor: '#737373',
-        borderBottomWidth: StyleSheet.hairlineWidth,
-        padding: 5,
-        margin: 5
-    },
-    export default LoginCount; 
-});
+//     text: {
+//         fontSize: 16,
+//         lineHeight: 21,
+//         fontWeight: 'bold',
+//         letterSpacing: 0.25,
+//         color: 'white',
+//     },
+//     textinput: {
+//         fontSize: 20,
+//         width: 200,
+//         borderBottomColor: '#737373',
+//         borderBottomWidth: StyleSheet.hairlineWidth,
+//         padding: 5,
+//         margin: 5
+//     },
+// });
