@@ -8,6 +8,7 @@ function HelpCount() {
     const [count, setCount] = useState(0);
    
     return (
+        <View styles={styles.HelpCount}>
         <div>
         <p> If you expirence trouble logging in, please press the help button here:</p>
         <button onClick= {() => setCount(count+1)}>
@@ -16,13 +17,14 @@ function HelpCount() {
             Help</button> */}
         <p>We recieved your help request. {count} email(s) has been sent to you.</p>
         </div>
+        </View>
     );
 }
 
 export default HelpCount; 
 
 const styles = StyleSheet.create({
-    container: {
+    HelpCount: {
       flex: 1,
       backgroundColor: '#fff',
       alignItems: 'center',
