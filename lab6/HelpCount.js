@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { StyleSheet } from 'react-native';
 
 //new functional component #1
-function buttonStuff(props) {
+function buttonStuff() {
     return <p>We recieved your help request. {count} email(s) has been sent to you.</p>;
 }
 
@@ -15,7 +15,7 @@ function HelpCount() {
         <p> If you expirence trouble logging in, please press the help button here:</p>
         {/* <button onClick= {() => setCount(count+1)}>
             Help</button> */}
-            <button onClick= {() => setCount(count+1)}>
+            <button onClick= {() => {setCount(count+1); buttonStuff();}}>
             Help</button>
         {/* <p>We recieved your help request. {count} email(s) has been sent to you.</p> */}
         </div>
