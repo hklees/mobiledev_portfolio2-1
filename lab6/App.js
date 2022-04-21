@@ -6,6 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <LoginApp />
+      <LoginCount />
       <StatusBar style="auto" />
     </View>
   );
