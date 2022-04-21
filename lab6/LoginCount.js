@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import { Button } from 'react-native';
 //new functional component #1
 function LoginCount() {
     const [count, setCount] = useState(0);
