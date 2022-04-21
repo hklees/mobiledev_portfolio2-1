@@ -31,9 +31,7 @@ export default function LoginApp() {
         </>
         : <Text>Welcome, {username}! </Text>
 }
-setTimeout(() => {
-    <p>If you have trouble logging in, please press the help button</p>
-}, 5000);
+
 
 const styles = StyleSheet.create({
     button: {
