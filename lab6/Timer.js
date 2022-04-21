@@ -19,7 +19,7 @@ import React, {useEffect, useState} from 'react';
 //         </div>
 //     );
 // };
- const Time = () => {
+ const Timer = () => {
      useEffect(() => {
          const timer = setTimeout(() => {
              setCount('Timeout called');
