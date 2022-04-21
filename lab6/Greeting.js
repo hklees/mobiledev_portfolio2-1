@@ -1,14 +1,13 @@
 import React, {StyleSheet, Component, useState} from 'react';
 
 const Greeting = () => {
-    const [morning, updateMorning] = useState("Good morning!")
+    const [morning, updateMorning] = useState(<h1>Good Morning!</h1>)
     const handleUpdate = () => {
-        updateMorning ("Good Evening!")
+        updateMorning (<h1>Good Evening</h1>)
     }
     return (
         <div>
             { morning}
-            <br></br>
             <button onClick={ () => {handleUpdate() }} >It's not morning...</button>
             <br></br>
         </div>
