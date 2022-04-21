@@ -4,7 +4,7 @@ import LoginApp from './LoginApp';
 import HelpCount from './HelpCount';
 import Timer from './Timer';
 import Greeting from './Greeting';
-import './App.css'
+import styles from './App.css'
 
 export default function App() {
   return (
