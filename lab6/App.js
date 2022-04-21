@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import LoginApp from './LoginApp';
-import LoginCount from './LoginApp'
+import LoginCount from './LoginApp';
 export default function App() {
   return (
     <View style={styles.container}>
