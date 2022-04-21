@@ -3,9 +3,11 @@ import { StyleSheet, Text, View } from 'react-native';
 import LoginApp from './LoginApp';
 import HelpCount from './HelpCount';
 import Timer from './Timer';
+import Greeting from './Greeting';
 export default function App() {
   return (
     <View style={styles.container}>
+      <Greeting></Greeting>
       <Timer></Timer>
       <LoginApp />
       <HelpCount></HelpCount>
