@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, {StyleSheet, Component, useState} from 'react';
 
 const Greeting = () => {
     const [morning, updateMorning] = useState("Good morning!")
