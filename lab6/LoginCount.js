@@ -7,7 +7,7 @@ function LoginCount() {
     return (
         <div>
         <p>You have tried to login in {count} time(s).</p>
-        <button onClick= {() => setCount(count+1)}>
+        <button style={styles.button} onClick= {() => setCount(count+1)}>
         Click here</button>
         </div>
     );
