@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { Button, StyleSheet } from 'react-native';
-import './App.css';
 
 //new functional component #1
 
