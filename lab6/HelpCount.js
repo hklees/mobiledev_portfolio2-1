@@ -13,10 +13,10 @@ function HelpCount() {
     return (
         <div>
         <p> If you expirence trouble logging in, please press the help button here:</p>
-        {/* <View style={styles.styleButton}> */}
+        <View style={styles.styleButton}>
         <button onClick= {() => setCount(count+1)}>
             Help</button>
-        {/* </View> */}
+        </View>
         <p>We recieved your help request. {count} email(s) has been sent to you.</p>
         </div>
        // </View>
@@ -25,6 +25,12 @@ function HelpCount() {
 
 export default HelpCount; buttonStuff; 
 
+
+const styles = StyleSheet.create({
+    styleButton: {
+        marginBottom: 30,
+    }
+})
 // const styles = StyleSheet.create({
 //     HelpCount: {
 //       flex: 1,
