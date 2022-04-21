@@ -3,6 +3,7 @@ import { StyleSheet } from 'react-native';
 
 //new functional component #1
 function buttonStuff() {
+    const [count, setCount] = useState(0);
     return <p>We recieved your help request. {count} email(s) has been sent to you.</p>;
 }
 
