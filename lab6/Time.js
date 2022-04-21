@@ -1,7 +1,21 @@
-//import React, {useState} from 'react';
-//new functional component #2
-function Greeting(){
-    <p>Hello, if you.... </p>
-}
+import React, {useEffect, useState} from 'react';
 
-setTimeout(greeting, 4000);
+//new functional component #2
+const Timeout = () => {
+    const [count, setCount] = useState(0);
+    const [countInTimeout, setCountInTimeout] = useState(0);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setCountInTimeout(count);
+        }, 4000); //4 seconds
+        setCount(5);
+    }, []);
+
+    return (
+        <div>
+            Count: {count}
+            setTimeout Count: {countInTimeout}
+        </div>
+    );
+};
