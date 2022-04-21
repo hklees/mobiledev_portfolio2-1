@@ -2,7 +2,12 @@ import React, {useState} from 'react';
 import { StyleSheet } from 'react-native';
 
 //new functional component #1
+function stuff() {
 
+    return (
+        <p>We recieved your help request. {count} email(s) has been sent to you.</p>
+        )
+}
 
 function HelpCount() {
     const [count, setCount] = useState(0);
@@ -11,17 +16,17 @@ function HelpCount() {
         //<View styles={styles.HelpCount}>
         <div>
         <p> If you expirence trouble logging in, please press the help button here:</p>
-        <button onClick= {() => setCount(count+1)}>
+        {/* <button onClick= {() => setCount(count+1)}>
+            Help</button> */}
+            <button onClick= {() => {setCount(count+1); {stuff} }}>
             Help</button>
-            <button onClick= {() => {setCount(count+1); {'test'} }}>
-            Help</button>
-        <p>We recieved your help request. {count} email(s) has been sent to you.</p>
+        {/* <p>We recieved your help request. {count} email(s) has been sent to you.</p> */}
         </div>
        // </View>
     );
 }
 
-export default HelpCount; 
+export default HelpCount; stuff; 
 
 // const styles = StyleSheet.create({
 //     HelpCount: {
