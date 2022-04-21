@@ -7,6 +7,8 @@ const Greeting = () => {
     }
     return (
         <div>
+            { morning}
+            <br></br>
             <button onClick={ () => {handleUpdate() }} >It's not morning...</button>
 
         </div>
