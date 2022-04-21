@@ -33,3 +33,4 @@ import React, {useEffect, useState} from 'react';
             </div>
         );
      };
+     export default Timer;
