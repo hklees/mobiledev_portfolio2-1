@@ -13,10 +13,8 @@ function HelpCount() {
     return (
         <div>
         <p> If you expirence trouble logging in, please press the help button here:</p>
-        <View style={styles.styleButton}>
-        <Button onClick= {() => setCount(count+1)}>
-            Help</Button>
-        </View>
+        <button onClick= {() => setCount(count+1)}>
+            Help</button>
         <p>We recieved your help request. {count} email(s) has been sent to you.</p>
         </div>
        // </View>
