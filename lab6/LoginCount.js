@@ -1,6 +1,6 @@
 //new functional component #1
 export function LoginCount() {
-    const [count, setCount] = useState(0);
+    let [count, setCount] = useState(0);
 
     return (
         <div>
