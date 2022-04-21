@@ -2,10 +2,7 @@ import React, {useState} from 'react';
 import { StyleSheet } from 'react-native';
 
 //new functional component #1
-function buttonStuff() {
-    const [count, setCount] = useState(0);
-    return <p>We recieved your help request. {count} email(s) has been sent to you.</p>;
-}
+
 
 function HelpCount() {
     const [count, setCount] = useState(0);
@@ -17,18 +14,14 @@ function HelpCount() {
             Help</button>
         <p>We recieved your help request. {count} email(s) has been sent to you.</p>
         </div>
-       // </View>
+       
     );
 }
 
 export default HelpCount; buttonStuff; 
 
 
-const styles = StyleSheet.create({
-    styleButton: {
-        marginBottom: 30,
-    }
-})
+
 // const styles = StyleSheet.create({
 //     HelpCount: {
 //       flex: 1,
