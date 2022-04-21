@@ -6,9 +6,9 @@ function LoginCount() {
 
     return (
         <div>
+        <p> If you expirence trouble logging in, please press the help button here:</p>
+        <button onClick= {() => setCount(count+1)}>Help</button>
         <p>You have tried to login in {count} time(s).</p>
-        <button onClick= {() => setCount(count+1)}>
-        Click here</button>
         </div>
     );
 }
