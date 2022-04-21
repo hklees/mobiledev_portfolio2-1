@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 //new functional component #2
-const Timeout = () => {
+function Timeout() {
     const [count, setCount] = useState(0);
     const [countInTimeout, setCountInTimeout] = useState(0);
 
