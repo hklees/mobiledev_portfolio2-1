@@ -16,7 +16,7 @@ function HelpCount() {
     //     </div>
        
     // );
-    
+
     return (
         <div>
         <p> If you expirence trouble logging in, please press the help button here:</p>
@@ -26,6 +26,7 @@ function HelpCount() {
         </div>
        
     );
+    
 }
 
 export default HelpCount; buttonStuff; 
