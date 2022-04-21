@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+//import React, {useState} from 'react';
 //new functional component #2
-function greeting(){
+function Greeting(){
     <p>Hello, if you.... </p>
 }
 
