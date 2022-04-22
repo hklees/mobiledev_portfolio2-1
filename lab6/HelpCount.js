@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Button, StyleSheet } from 'react-native';
+import { Button } from 'react-native';
 
 //new functional component #1
 
@@ -16,13 +16,7 @@ function HelpCount() {
     );
 }
 
-export default HelpCount; StyleSheet.create ({
-    button: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingVertical: 12,
-    }
-}) 
+export default HelpCount; 
 
 
 
