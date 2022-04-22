@@ -14,7 +14,7 @@ function HelpCount() {
         <p>We recieved your help request. {count} email(s) has been sent to you.</p>
         </div>
     );
-}
+};
 
 export default HelpCount; 
 
