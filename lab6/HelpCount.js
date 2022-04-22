@@ -16,7 +16,13 @@ function HelpCount() {
     );
 }
 
-export default HelpCount; 
+export default HelpCount; StyleSheet.create ({
+    button: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingVertical: 12,
+    }
+}) 
 
 
 
