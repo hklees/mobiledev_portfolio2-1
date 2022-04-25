@@ -12,10 +12,7 @@ const Greeting = () => {
         <div>
             { morning}
             {/* <button onClick={ () => {handleUpdate() }} >It's not morning...</button> */}
-            <Button buttonStyle={{
-                backgroundColor: 'red',
-            }}
-            title= "It's not morning..." onPress= { () => {handleUpdate() }} ></Button>
+            <Button title= "It's not morning..." onPress= { () => {handleUpdate() }} ></Button>
             <br></br>
         </div>
     
