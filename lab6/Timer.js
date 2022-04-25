@@ -58,7 +58,7 @@ import { Text, StyleSheet } from 'react-native';
             }, [] )
             return (
                 <div>
-                    <Text>
+                    <Text style={styles.text}>
                     For security purposes, this page will no longer work after 1 mintue.
                     To reset your time, please refresh the page.<br></br>
                     This page has refreshed {counter} times.
@@ -70,10 +70,11 @@ import { Text, StyleSheet } from 'react-native';
     const styles = StyleSheet.create({
         text: {
             fontSize: 16,
-            lineHeight: 21,
             fontWeight: 'bold',
             letterSpacing: 0.25,
             color: 'black',
+            alignSelf: 'center',
+
         },
     })
 
