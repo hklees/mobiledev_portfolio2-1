@@ -51,14 +51,18 @@ import { Text } from 'react-native';
             }
             interval = setInterval(() => {
                 updateCounter() 
-            }, 10000) //10 seconds
+            }, 60000) // page refreshes in 1 mintue (60000)
             return () => {
                 clearImmediate(interval)
             }
             }, [] )
             return (
                 <div>
-                    Count is {counter}
+                    <Text>
+                    For security purposes, this page will no longer work after 1 mintue.
+                    To reset your time, please refresh the page.<br></br>
+                    This page has refreshed {counter} times.
+                 </Text>
                 </div>
             )
             }

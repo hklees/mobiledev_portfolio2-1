@@ -8,9 +8,9 @@ import Greeting from './Greeting';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Greeting></Greeting>
-      <br></br>
       <Timer></Timer>
+      <br></br>
+      <Greeting></Greeting>
       <br></br>
       <LoginApp />
       <br></br>
