@@ -1,5 +1,5 @@
-import React, {useState, StyleSheet} from 'react';
-import { Button, Text } from 'react-native';
+import React, {useState} from 'react';
+import { Button, Text, StyleSheet } from 'react-native';
 
 //new functional component #1
 
@@ -19,11 +19,11 @@ function HelpCount() {
             );
         };
         
-const styles= StyleSheet ({
+const styles= StyleSheet.create ({
     text: {
         fontSize: 30,
     }
 })
 
-export default HelpCount; 
+export default HelpCount; StyleSheet;
 
