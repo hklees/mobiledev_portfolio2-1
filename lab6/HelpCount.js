@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, StyleSheet} from 'react';
 import { Button, Text } from 'react-native';
 
 //new functional component #1
@@ -19,7 +19,11 @@ function HelpCount() {
             );
         };
         
-
+const styles= StyleSheet.create ({
+    text: {
+        fontSize: 30,
+    }
+})
 
 export default HelpCount; 
 
