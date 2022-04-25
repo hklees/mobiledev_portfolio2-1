@@ -13,6 +13,7 @@ export default function App() {
       <Timer></Timer>
       <br></br>
       <LoginApp />
+      <br></br>
       <HelpCount></HelpCount>
       <StatusBar style="auto" />
     </View>
