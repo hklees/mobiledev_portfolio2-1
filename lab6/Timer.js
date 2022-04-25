@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from 'react';
+import { Text } from 'react-native';
+
 //new functional component #2
 
 // const Timeout = () => {
@@ -32,8 +34,10 @@ import React, {useEffect, useState} from 'react';
          
         return (
             <div>
+                <Text>
                 For security purposes, this page will no longer work after 1 mintue.
                 To reset your time, please refresh the page.
+                </Text>
             </div>
         );
      };
