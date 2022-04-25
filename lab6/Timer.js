@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Text } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
 
 //new functional component #2
 
@@ -67,4 +67,4 @@ import { Text } from 'react-native';
             )
             }
 
-     export default Timer;
+     export default Timer; StyleSheet;
