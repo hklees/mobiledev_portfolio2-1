@@ -19,7 +19,7 @@ function HelpCount() {
             );
         };
         
-const styles= StyleSheet.create ({
+const styles= StyleSheet ({
     text: {
         fontSize: 30,
     }
