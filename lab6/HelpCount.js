@@ -13,7 +13,7 @@ function HelpCount() {
                 <button onClick= {() => setCount(count+1)}>
                     Help</button>
                     <br></br>
-                    <Text>We recieved your help request. {count} email(s) has been sent to you.</Text>
+                    <Text>You have sent in {count} help request(s). {count} email(s) was been sent to you.</Text>
                 {/* <p>We recieved your help request. {count} email(s) has been sent to you.</p> */}
                 </div>
             );
