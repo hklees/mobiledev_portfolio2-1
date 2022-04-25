@@ -11,6 +11,7 @@ export default function App() {
       <Greeting></Greeting>
       <br></br>
       <Timer></Timer>
+      <br></br>
       <LoginApp />
       <HelpCount></HelpCount>
       <StatusBar style="auto" />
