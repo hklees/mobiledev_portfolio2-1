@@ -9,5 +9,5 @@ New Components (all use useState):
 (I thought this was funny)
 
 
-Notes for me:
-put npm run web in terminal to open app in brower 
+Github Repo link: https://github.com/hklees/mobiledev_portfolio2-1
+
